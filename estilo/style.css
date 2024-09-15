@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+}
+
+body {
+    background-color: rgb(165, 202, 167) ;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background:  url(../imagens/depositphotos_54860225-stock-photo-stadium.jpg) center center no-repeat fixed;
+  background-size: cover;
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(102, 202, 248, 0.658), rgb(14, 137, 153),rgba(0, 162, 255, 0.568));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+header > h1 {
+    color: white;
+    font-style: initial;
+    padding-top: 30px;
+    text-shadow: 10vw;
+}
+
+header > p {
+    color: white;
+    padding-bottom: 50px;
+}
+
+
+nav {
+    background-image: linear-gradient(to top, rgb(31, 57, 71), rgba(9, 107, 146, 0.788), rgba(28, 148, 204, 0.692));
+    background-color: rgb(21, 164, 207);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
+}
+
+nav > a {
+    color:rgb(0, 204, 255);
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+nav > a:hover {
+    background-color:rgb(0, 153, 255);
+    color: white;
+}
+
+main {
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.432);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+}
+
+
+main  h2 {
+    color: var(--cor4);
+    font-family:var(--fonte-Android);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.329), transparent);
+    text-indent: 8px;
+
+}
+
+main  p {
+    margin: 15px 0;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+main a {
+    text-decoration: none;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+article > h1 {
+    color: rgb(6, 88, 136);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.329), transparent);
+    text-indent: 8px;
+
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    border-radius: 0px 13px 0px 13px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(78, 78, 78, 0.493);
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 4px;
+}
+
+footer a {
+    color: rgb(133, 228, 130);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
